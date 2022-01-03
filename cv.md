@@ -28,3 +28,11 @@ function humanReadable (seconds) {
   return `${String(hours).padStart(2, '0')}:${String(min).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
 }
 ```
+
+###Education: 
++Software for Information Technologies, Faculty of Computer Systems and Networks, Belarusian State University of Informatics and Radio electronics (BSUIR). Speciality: Software Engineer
++[HTML/SCC cource on codecademy](https://www.codecademy.com/profiles/Christopher-0118)
++[learn.javascript.ru](https://learn.javascript.ru/) inprogress
+
+###Foreign Languages: 
++English - Pre-Intermediate (A2).
