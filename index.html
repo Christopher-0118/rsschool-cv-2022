@@ -1,49 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        
-        <title>The HTML5 Herald</title>
-        <meta name="description" content="The HTML5 Herald">
-        <meta name="author" content="SitePoint">
-        
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <p>Kristina Karantsevich
-            Contact Info:
-            phone: +375(33) 601-69-47
-            
-            email: k.karantsevich@gmail.com
-            
-            discord: Christopher#2268
-            
-            Career goal:
-            I’d like to apply for the position of Junior Frontend developer.
-            
-            I want to start working and developing as a team member as well as become more familiar with new technologies.
-            
-            Positive Traits:
-            Creative approach to the tasks resolving;
-            Constantly self-study practice with IT technologies;
-            Desire to grow in the sphere of Web.
-            Base knowledge:
-            JS;
-            HTML/CSS;
-            Git.
-            Code examples:
+  <head>
+    <meta charset="utf-8">
+    <title>The CV</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>Kristina Karantsevich</h1>
+      <img src="./img/i_m.jpg" alt="i_am" width="100" height="100">
+    </header>
+    
+    <main class="main-CV">
+      <article>
+        <h2>Career goal:</h2>
+        <p>I’d like to apply for the position of Junior Frontend developer.
+          I want to start working and developing as a team member as well as become more familiar with new technologies.
+        </p>
+        <h2>Positive Traits:</h2>
+        <ol>
+          <li>Creative approach to the tasks resolving;</li>
+          <li>Constantly self-study practice with IT technologies;</li>
+          <li>Desire to grow in the sphere of Web.</li>
+        </ol>
+       
+        <h2>Code examples:</h2>
+          <code>
             function humanReadable (seconds) {
               let hours = Math.trunc(seconds / 3600);
               let min = Math.trunc((seconds - hours * 3600) / 60);
               let sec = seconds - hours * 3600 - min * 60;
-               
+                
               return `${String(hours).padStart(2, '0')}:${String(min).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
             }
-            Education:
-            Software for Information Technologies, Faculty of Computer Systems and Networks, Belarusian State University of Informatics and Radio electronics (BSUIR). Speciality: Software Engineer
-            HTML/SCC cource on codecademy
-            learn.javascript.ru inprogress
-            Foreign Languages:
-            English - Pre-Intermediate (A2).</p>
-    </body>
+          </code>
+        <h2>Education:</h2>
+        <ol>
+          <li>Belarusian State University of Informatics and Radio electronics (BSUIR). Speciality: Software Engineer</li>
+          <li>HTML/SCC cource on codecademy</li>
+          <li>learn.javascript.ru inprogress</li>
+        </ol>
+        <h2>Foreign Languages:</h2>
+        <ol>
+          <li>Russian - Native</li>
+          <li>English - Pre-Intermediate (A2).</li>
+        </ol>
+      </article>
+      <aside class="base-info">
+        <h2>Contact Info:</h2>
+        <p>phone: +375(33)601-69-47</p>
+        <p>email: k.karantsevich@gmail.com</p>
+        <p>discord: Christopher#2268</p>
+        <h2>Base knowledge:</h2>
+        <ol>
+          <li>JS;</li>
+          <li>HTML/CSS;</li>
+          <li>Git.</li>
+        </ol>
+      </aside>
+    </main>
+
+    <footer clas="footer">
+        <a href="https://github.com/Christopher-0118">GitHub</a> 
+        <p>2022</p>
+        <img src="./img/logo.svg" alt="RSSchool" width="50" height="60">
+        <a href="https://rs.school/js/">GitHub</a>
+    </footer>
+  </body>
 </html>
