@@ -1,6 +1,6 @@
-body {
-    background: rgba(254, 255, 207, 0.493);
-    margin: auto;
+.container {
+    display: flex;
+    
 }
 
 .header-CV {
