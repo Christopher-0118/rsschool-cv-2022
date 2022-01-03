@@ -3,6 +3,7 @@
 ###Contact Info: 
 *phone:* +375(33) 601-69-47
 *email:* k.karantsevich@gmail.com
+*discord:* Christopher#2268
 
 ###Career goal:
 I’d like to apply for the position of Junior Frontend developer.
