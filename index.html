@@ -7,7 +7,7 @@
   </head>
   <body>
 
-    <header>
+    <header class="header-CV">
       <h1>Kristina Karantsevich</h1>
       <img src="./img/i_m.jpg" alt="i_am" width="100" height="100">
     </header>
@@ -26,7 +26,8 @@
         </ol>
        
         <h2>Code examples:</h2>
-          <code>
+          
+        <pre class="code-example"><code>
             function humanReadable (seconds) {
               let hours = Math.trunc(seconds / 3600);
               let min = Math.trunc((seconds - hours * 3600) / 60);
@@ -34,7 +35,7 @@
                 
               return `${String(hours).padStart(2, '0')}:${String(min).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
             }
-          </code>
+        </code></pre>
         <h2>Education:</h2>
         <ol>
           <li>Belarusian State University of Informatics and Radio electronics (BSUIR). Speciality: Software Engineer</li>

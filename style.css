@@ -1,0 +1,14 @@
+body {
+    background: rgba(254, 255, 207, 0.493);
+    margin: auto;
+}
+
+.header-CV {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-CV {
+    display: flex;
+    flex-wrap: wrap;
+}
