@@ -1,4 +1,10 @@
-*{
-    background: rgba(254, 255, 207, 0.493);
-    text-align: center;
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.header-CV {
+    display: flex;
+    justify-content: space-around;
 }
